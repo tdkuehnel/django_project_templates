@@ -22,7 +22,7 @@ Installation:
   - Herunterladen der Projektschablonen
   - Erzeugen eines Django-Projektes mit Hilfe der Schablonen:
   
-  django-admin startproject --template <Pfad zu der Projektschablone> <Projektname>
+  django-admin startproject --template "Pfad zu der Projektschablone" "Projektname"
 
   - Ins Projektverzeichnis wechseln und make eingeben, um die CSS-Dateien zu generieren.
   - Mit pip install -r requirements.txt Abhängigkeiten installieren
