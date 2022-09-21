@@ -29,3 +29,11 @@ Installation:
   - Migrationen erzeugen
   - Migrationen anwenden
   - Mit python manage.py runserver Projekt starten
+
+Hinzufügen von Klassen:
+
+  python manage.py startmodul --help
+  
+  python manage.py startmodul --kuerzel "Präfix für kurze SQL-Feldnamen (3 Stellen empfohlen)" --klassname "Klassenname für die Tabelle"
+  
+ Damit wird ein neues Modul erzeugt (django-app), und darin eine Klasse mit Admin-Schnittstelle angelegt.
