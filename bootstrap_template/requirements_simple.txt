@@ -1,0 +1,5 @@
+django-crum
+django-extensions
+django-simple-captcha
+django-simple-history
+django-tinymce
